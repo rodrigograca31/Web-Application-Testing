@@ -33,5 +33,10 @@ export default function GameState() {
 		});
 	};
 
-	return { state: state, hit: addHit, ball: addBall, strike: addStrike };
+	return {
+		state: state,
+		hit: addHit,
+		ball: addBall,
+		strike: addStrike
+	};
 }
