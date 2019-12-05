@@ -1,0 +1,15 @@
+.App {
+	text-align: center;
+	background-color: lightgray;
+	padding: 20px;
+}
+
+.display {
+	max-width: 500px;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	div {
+		width: 33%;
+	}
+}
